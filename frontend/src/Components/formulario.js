@@ -174,9 +174,6 @@ const formatarDDD = (value) => {
     .replace(/(-\d{4})\d+?$/, "$1");        
 }
 
-const InputMaiusculoRazao = styled(Input)`
-  text-transform: uppercase;
-`;
 
 return (
   <Wrapper>
@@ -189,7 +186,7 @@ return (
 
         <InputArea>
           <Label>Razão</Label>
-            <InputMaiusculoRazao name="razao" value={razao} onChange={(e) => setRazao(e.target.value.toUpperCase())} />
+            <Input name="razao" value={razao} onChange={(e) => setRazao(e.target.value)} />
         </InputArea>
 
         <InputArea>
