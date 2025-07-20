@@ -2,7 +2,7 @@
 
 Acesse o link do deploy abaixo:
 
- - [Registro de Cadastros](https://crud-ashen-three.vercel.app)
+ - [Registro de Cadastros](https://registro-de-cadastro.vercel.app)
 
 
 ## Funcionalidades
